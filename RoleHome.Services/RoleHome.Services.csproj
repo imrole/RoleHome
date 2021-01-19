@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RoleHome.IServices\RoleHome.IServices.csproj" />
+    <ProjectReference Include="..\RoleHome.Model\RoleHome.Model.csproj" />
+  </ItemGroup>
+
+</Project>

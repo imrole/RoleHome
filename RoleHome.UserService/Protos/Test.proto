@@ -1,0 +1,11 @@
+syntax = "proto3";
+package RoleHome.MicroService.UserServiceInstance.Protos;
+option csharp_namespace = "RoleHome.MicroService.UserServiceInstance.Protos";
+
+message TestResponse {
+	string ret = 1;
+}
+
+service Test {
+	rpc Get() returns (TestResponse);
+}
